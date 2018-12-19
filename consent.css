@@ -1,0 +1,83 @@
+.consent {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 15px 25px;
+    box-shadow: 0 -6px 17px -4px rgba(0, 0, 0, .1);
+    background-color: rgba(87, 92, 101, .95);
+    color: #fff;
+    z-index: 5005;
+    text-align: center;
+}
+
+.consent--hidden {
+    display: none;
+}
+
+@media print {
+    .consent {
+        display: none;
+    }
+}
+
+.consent-text {
+    margin: 0;
+    font-size: 12px;
+}
+
+.consent-actions {
+    margin-top: 10px;
+}
+
+.consent-button {
+    color: #fff;
+    text-shadow: 0 1px #00a135;
+    background-color: #59c817;
+    border-radius: 3px;
+}
+
+.consent-button, 
+.consent-link {
+    height: 26px;
+    line-height: 26px;
+    padding: 0 15px;
+    margin: 0;
+    font-size: 12px;
+    vertical-align: inherit;
+    text-decoration: none;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    background-image: none;
+    border: 0;
+    outline: 0;
+}
+
+.consent-link {
+    background-color: transparent;
+}
+
+.consent-button:active, 
+.consent-button:focus, 
+.consent-button:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #69d827;
+}
+
+.consent-link, 
+.consent a {
+    color: #6bbb43;
+}
+
+.consent-link:active, 
+.consent-link:focus, 
+.consent-link:hover, 
+.consent a:active, 
+.consent a:focus, 
+.consent a:hover {
+    color: #6eef26;
+}
